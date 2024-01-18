@@ -35,7 +35,7 @@ export const Signup = () => {
     e.preventDefault();
     // console.log(user);
 
-   const response  = await fetch('https://notary-gadget.vercel.app/api/auth/register', {
+   const response  = await fetch('https://notary-gadget-9zap.vercel.app/api/auth/register', {
     method:"POST",
     headers:{
       "Content-Type" : "application/json"
