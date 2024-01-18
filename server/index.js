@@ -5,7 +5,7 @@ const app = express();
 const connectDb = require('./utils/db') 
 
 const corsOptions = {
-    origin : "http://localhost:3000",
+    origin : "https://notary-gadget-ng.vercel.app/",
     method : "GET , POST , PUT , PATCH , DELETE , HEAD",
     Credential : true
 }
