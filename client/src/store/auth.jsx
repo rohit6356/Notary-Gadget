@@ -21,7 +21,7 @@ let isLoggedIn = !!token;
 
 const userAuthentication = async() =>{
   try {
-    const response = await fetch("https://notary-gadget.vercel.app/api/auth/user",{
+    const response = await fetch("https://notary-gadget-9zap.vercel.app/api/auth/user",{
       method : "GET",
       headers : {
         Authorization: `Bearer ${token}`,
